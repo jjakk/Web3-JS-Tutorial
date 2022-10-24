@@ -7,9 +7,10 @@
     <script>
         const ROOM_ID = "<%= roomId %>";
     </script>
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>Video Chat App</title>
     <style>
         #video-grid{
             display: grid;
@@ -25,6 +26,7 @@
     </style>
 </head>
 <body>
+    <h1>Video Chat App</h1>
     <div id="video-grid"></div>
 </body>
 </html>
